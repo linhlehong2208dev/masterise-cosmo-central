@@ -1,0 +1,71 @@
+.footer {
+  background: #004380;
+  color: #fff;
+  padding: 80px 100px 20px;
+}
+
+/* layout 3 cột */
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+/* LEFT */
+.left {
+  max-width: 400px;
+}
+
+.logo {
+  width: 200px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+.desc {
+  font-family: Inter;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* CENTER + RIGHT */
+.center,
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.center h3,
+.right h3 {
+  font-family: "Playfair Display";
+  font-size: 22px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.center span,
+.right span {
+  font-family: Montserrat;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* COPYRIGHT */
+.copyright {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoSmall {
+  width: 100px;
+  height: 40px;
+  background: url("/images/logo/logo-oneplus.png") center / contain no-repeat;
+}

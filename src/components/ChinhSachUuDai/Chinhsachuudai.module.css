@@ -1,0 +1,65 @@
+.wrapper {
+  background: #004380;
+  padding: 60px 80px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+
+.content {
+  width: 100%;
+  flex: 1;
+  color: #fff;
+}
+
+.mainTitle {
+  font-family: SVN-Mightiest;
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.subTitle {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #fff;
+  padding: 12px;
+}
+
+.cardTitle {
+  font-size: 14px;
+  display: block;
+}
+
+.cardPrice {
+  font-family: SVN-Mightiest;
+  font-size: 32px;
+}
+
+/* SLIDER */
+.slider {
+  width: 100%;
+  flex: 1;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
