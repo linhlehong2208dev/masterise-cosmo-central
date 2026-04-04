@@ -1,0 +1,34 @@
+{
+  "sectionId": "header",
+  "background": {
+    "type": "color",
+    "value": "#004380"
+  },
+  "logo": {
+    "primary": "/images/logo-oneplus.png",
+    "secondary": "/images/logo-masterise.png"
+  },
+  "nav": [
+    { "label": "TỔNG QUAN", "href": "#tong-quan" },
+    { "label": "VỊ TRÍ", "href": "#map" },
+    { "label": "TIỆN ÍCH", "href": "#tien-ich" },
+    { "label": "MẶT BẰNG", "href": "#mat-bang-tang" },
+    { "label": "CHÍNH SÁCH", "href": "#ban-hang" },
+    { "label": "LIÊN HỆ", "href": "#lien-he" }
+  ],
+  "cta": {
+    "label": "NHẬN BÁO GIÁ",
+    "bgColor": "#ff6700",
+    "color": "#ffffff"
+  },
+  "hotline": "0939 535 111",
+  "style": {
+    "headerHeight": 80,
+    "paddingX": 80,
+    "navColor": "#ffffff",
+    "navActiveColor": "#d3a769",
+    "navFontSize": 16,
+    "navGap": 4,
+    "navFontWeight": 900
+  }
+}
